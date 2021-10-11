@@ -1,0 +1,23 @@
+{
+    "name": "dima/vlrutest",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dima\\Vlrutest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Shmanko",
+            "email": "dimashaman@icloud.com"
+        }
+    ],
+    "require": {
+        "kassner/log-parser": "~2.0",
+        "cheprasov/php-cli-args": "^3.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.99",
+        "phpunit/phpunit": "^9.5"
+    }
+}
